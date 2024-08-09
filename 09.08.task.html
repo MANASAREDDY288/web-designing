@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      #navbar {
+        height: 100px;
+        padding: 0px 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+      }
+      #navbar div {
+        display: flex;
+        align-items: center;
+      }
+      #navbar-links ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #navbar-links li {
+        margin: 12px;
+        font-size: 18px;
+      }
+      #navbar-links a {
+        text-decoration: none;
+        color: #000;
+      }
+      #btn {
+        border: 2px solid #fad110;
+        background-color: #fff;
+        color: #4586d5;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        border-radius: 8px;
+        width: 250px;
+        height: 150px;
+        margin: 15px;
+      }
+      #container-1 {
+        display: flex;
+        justify-content: space-around;
+        padding-right: 100px;
+        padding: 16px;
+        margin: 15px;
+        position: absolute;
+        top: 70%;
+        bottom: 50%;
+        width: 90%;
+      }
+      h1 {
+        font-size: 20px;
+        text-align: center;
+      }
+      #main {
+        position: relative;
+      }
+      #banner {
+        position: absolute;
+        left: 50px;
+        bottom: 30%;
+        text-align: left;
+        color: #142336;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        width: 550px;
+      }
+      #banner p {
+        margin: 10px;
+        font-size: 20px;
+        color: #142336;
+      }
+      #banner button {
+        padding: 10px 20px;
+        background-color: #fad110;
+        border: none;
+        color: #000;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      #banner h1 {
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <div>
+        <img src="../google_images/facebookicon.png" width="38px" />
+        <img src="../google_images/twitter-icon.webp" width="38px" />
+        <img src="../google_images/instaicon.webp" width="38px" />
+        <img src="../google_images/youtube-icon.webp" width="38px" />
+      </div>
+      <div>
+        <div id="navbar-links">
+          <ul>
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./shop.html">SHOP</a></li>
+            <li>
+              <img
+                src="https://preview.colorlib.com/theme/hvacompany/img/logo.png"
+              />
+            </li>
+
+            <li><a href="./pages.html">PAGES</a></li>
+            <li><a href="./News.html">News</a></li>
+            <li><a href="./Contact.html">CONTACT</a></li>
+            <button id="btn">
+              <li><a href="./1–688–688-94.html">1–688–688-94</a></li>
+            </button>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+      <img src="../google_images/webpic.webp" width="100%" height="100%" />
+      <div id="banner">
+        <h1>Keeping your home <br />comfortable all year long</h1>
+        <p>that air conditioning systems are regularly maintained.</p>
+        <button>Contact us</button>
+      </div>
+      <div id="container-1">
+        <div class="container">
+          <img
+            src="../google_images/payment.webp"
+            width="100px"
+            height="100px"
+          />
+          <h1>No Upfront Payments</h1>
+        </div>
+        <div class="container">
+          <img
+            src="../google_images/satisfaction.webp"
+            width="100px"
+            height="100px"
+          />
+          <h1>Satisfaction Guarantee</h1>
+        </div>
+        <div class="container">
+          <img
+            src="../google_images/emergency.webp"
+            width="100px"
+            height="100px"
+          />
+          <h1>Emergency Service</h1>
+        </div>
+        <div class="container">
+          <img
+            src="../google_images/experience.webp"
+            width="100px"
+            height="100px"
+          />
+          <h1>8 Years Experience</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
